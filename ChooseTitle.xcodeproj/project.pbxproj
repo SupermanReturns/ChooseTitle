@@ -15,6 +15,7 @@
 		CF09AA8320F9B41D007879BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA8220F9B41D007879BC /* main.m */; };
 		CF09AA8D20F9B41D007879BC /* ChooseTitleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA8C20F9B41D007879BC /* ChooseTitleTests.m */; };
 		CF09AA9820F9B41D007879BC /* ChooseTitleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA9720F9B41D007879BC /* ChooseTitleUITests.m */; };
+		CF09AAA720F9B5F1007879BC /* TitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AAA620F9B5F1007879BC /* TitleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CF09AA9320F9B41D007879BC /* ChooseTitleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseTitleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF09AA9720F9B41D007879BC /* ChooseTitleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseTitleUITests.m; sourceTree = "<group>"; };
 		CF09AA9920F9B41D007879BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF09AAA520F9B5F1007879BC /* TitleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleModel.h; sourceTree = "<group>"; };
+		CF09AAA620F9B5F1007879BC /* TitleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CF09AA7420F9B418007879BC /* AppDelegate.m */,
 				CF09AA7620F9B418007879BC /* ViewController.h */,
 				CF09AA7720F9B418007879BC /* ViewController.m */,
+				CF09AAA520F9B5F1007879BC /* TitleModel.h */,
+				CF09AAA620F9B5F1007879BC /* TitleModel.m */,
 				CF09AA7920F9B418007879BC /* Main.storyboard */,
 				CF09AA7C20F9B41D007879BC /* Assets.xcassets */,
 				CF09AA7E20F9B41D007879BC /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				CF09AA7820F9B418007879BC /* ViewController.m in Sources */,
 				CF09AA8320F9B41D007879BC /* main.m in Sources */,
+				CF09AAA720F9B5F1007879BC /* TitleModel.m in Sources */,
 				CF09AA7520F9B418007879BC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = ChooseTitle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = ChooseTitle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

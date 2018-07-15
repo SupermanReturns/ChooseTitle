@@ -10,4 +10,10 @@
 
 @interface TitleModel : NSObject
 
+@property(nonatomic,copy)NSString *title;
+@property(nonatomic,copy)NSString *one;
+@property(nonatomic,copy)NSString *two;
+@property(nonatomic,copy)NSString *three;
+@property(nonatomic,copy)NSString *four;
+
 @end
